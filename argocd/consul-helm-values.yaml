@@ -2,6 +2,10 @@ global:
   name: consul
   datacenter: dc1
   image: hashicorp/consul:1.16.0
+  imageK8S: absolutelightning/consul-k8s-argocd:latest
+
+  argocd:
+    enabled: true 
 
   tls:
     enabled: true
@@ -11,13 +15,10 @@ global:
 
   acls:
     manageSystemACLs: true
-    annotations: |
-      argocd.argoproj.io/hook: Sync
-      argocd.argoproj.io/hook-delete-policy: HookSucceeded
 
 server:
   replicas: 3
-  updatePartition: 3
+  updatePartition: 0
 
 connectInject:
   enabled: true

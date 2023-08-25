@@ -4,6 +4,8 @@
 global:
   name: consul
   datacenter: DATACENTER
+  image: hashicorp/consul:1.16.0
+  imageK8S: absolutelightning/consul-k8s-argocd:latest
 
   tls:
     enabled: true
@@ -13,6 +15,9 @@ global:
 
   acls:
     manageSystemACLs: true
+
+  argocd:
+    enabled: true
 
 connectInject:
   enabled: true
