@@ -12,8 +12,8 @@ spec:
     - CreateNamespace=true
   project: consul
   source:
-    repoURL: 'https://github.com/joatmon08/consul-minikubes.git'
-    targetRevision: argocd
+    repoURL: 'https://github.com/absolutelightning/consul-minikubes.git'
+    targetRevision: test-argocd
     path: argocd/observability
   destination:
     server: "https://kubernetes.default.svc"

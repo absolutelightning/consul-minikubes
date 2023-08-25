@@ -10,7 +10,7 @@ spec:
 
   sourceRepos:
   - 'https://helm.releases.hashicorp.com'
-  - 'https://github.com/joatmon08/consul-minikubes.git'
+  - 'https://github.com/absolutelightning/consul-minikubes.git'
 
   # Only permit applications to deploy to the consul namespace in the same cluster
   destinations:

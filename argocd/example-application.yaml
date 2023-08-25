@@ -10,9 +10,9 @@ spec:
       selfHeal: true
   project: default
   sources:
-    - repoURL: 'https://github.com/joatmon08/consul-minikubes.git'
+    - repoURL: 'https://github.com/absolutelightning/consul-minikubes.git'
       path: argocd/example
-      targetRevision: argocd
+      targetRevision: test-argocd
   destination:
     server: "https://kubernetes.default.svc"
     namespace: default

@@ -19,12 +19,12 @@ spec:
         releaseName: consul
         valueFiles:
           - $values/argocd/consul-helm-values.yaml
-    - repoURL: 'https://github.com/joatmon08/consul-minikubes.git'
-      targetRevision: argocd
+    - repoURL: 'https://github.com/absolutelightning/consul-minikubes.git'
+      targetRevision: test-argocd
       ref: values
-    - repoURL: 'https://github.com/joatmon08/consul-minikubes.git'
+    - repoURL: 'https://github.com/absolutelightning/consul-minikubes.git'
       path: argocd/consul-config
-      targetRevision: argocd
+      targetRevision: test-argocd
   destination:
     server: "https://kubernetes.default.svc"
     namespace: consul

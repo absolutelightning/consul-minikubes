@@ -12,9 +12,9 @@ spec:
     - CreateNamespace=true
   project: consul
   sources:
-    - repoURL: 'https://github.com/joatmon08/consul-minikubes.git'
+    - repoURL: 'https://github.com/absolutelightning/consul-minikubes.git'
       path: argocd/jaeger
-      targetRevision: argocd
+      targetRevision: test-argocd
   destination:
     server: "https://kubernetes.default.svc"
     namespace: consul
