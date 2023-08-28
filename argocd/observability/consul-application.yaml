@@ -13,8 +13,8 @@ spec:
   project: consul
   sources:
     - chart: consul
-      repoURL: https://absolutelightning.github.io/helm-consul-charts
-      targetRevision: main
+      repoURL: https://db8e-2406-7400-98-7d44-fd8b-f686-ea06-d832.ngrok-free.app/
+      targetRevision: 1.0.0
       helm:
         releaseName: consul
         valueFiles:
