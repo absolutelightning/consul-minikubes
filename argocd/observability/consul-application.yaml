@@ -13,7 +13,7 @@ spec:
   project: consul
   sources:
     - chart: default
-      repoURL: https://raw.githubusercontent.com/hashicorp/consul-k8s/9c81a52f25e5c9e21faa27e86588f6e1486f825b/charts/consul/values.yaml
+      repoURL: https://helm.releases.hashicorp.com
       targetRevision: NET-5229-Create-dedicated-argocd-stanza
       helm:
         releaseName: consul
