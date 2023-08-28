@@ -13,7 +13,7 @@ spec:
   project: consul
   sources:
     - chart: consul
-      repoURL: https://github.com/hashicorp/consul-k8s
+      repoURL: https://2b1d-2406-7400-98-7d44-fd8b-f686-ea06-d832.ngrok-free.app/
       targetRevision: NET-5229-Create-dedicated-argocd-stanza
       helm:
         releaseName: consul
