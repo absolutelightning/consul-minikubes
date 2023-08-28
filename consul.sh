@@ -4,7 +4,7 @@
 
 
 setup_helm () {
-    helm repo add hashicorp https://2b1d-2406-7400-98-7d44-fd8b-f686-ea06-d832.ngrok-free.app/
+    helm repo add hashicorp https://absolutelightning.github.io/helm-consul-charts
 }
 
 install_consul () {

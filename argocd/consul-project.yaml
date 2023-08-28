@@ -9,6 +9,7 @@ spec:
   description: HashiCorp Consul
 
   sourceRepos:
+  - 'https://absolutelightning.github.io/helm-consul-charts'
   - 'https://github.com/absolutelightning/consul-minikubes.git'
 
   # Only permit applications to deploy to the consul namespace in the same cluster
