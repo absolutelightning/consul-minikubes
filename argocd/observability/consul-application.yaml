@@ -13,8 +13,8 @@ spec:
   project: consul
   sources:
     - chart: consul
-      repoURL: https://helm.releases.hashicorp.com
-      targetRevision: NET-5229-Create-dedicated-argocd-stanza
+      repoURL: https://github.com/absolutelightning/helm-release
+      targetRevision: main
       helm:
         releaseName: consul
         valueFiles:
