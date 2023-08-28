@@ -12,7 +12,7 @@ spec:
     - CreateNamespace=true
   project: consul
   sources:
-    - chart: consul
+    - chart: default
       repoURL: https://raw.githubusercontent.com/hashicorp/consul-k8s/9c81a52f25e5c9e21faa27e86588f6e1486f825b/charts/consul/values.yaml
       targetRevision: NET-5229-Create-dedicated-argocd-stanza
       helm:
