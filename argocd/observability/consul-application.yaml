@@ -13,7 +13,7 @@ spec:
   project: consul
   sources:
     - chart: consul
-      repoURL: https://github.com/absolutelightning/helm-release
+      repoURL: https://absolutelightning.github.io/helm-consul-charts
       targetRevision: main
       helm:
         releaseName: consul
