@@ -14,7 +14,7 @@ spec:
   sources:
     - chart: consul
       repoURL: https://absolutelightning.github.io/helm-consul-charts
-      targetRevision: main
+      targetRevision: 1.0.0
       helm:
         releaseName: consul
         valueFiles:
